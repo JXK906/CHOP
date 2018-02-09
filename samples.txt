@@ -1,0 +1,3 @@
+R1	R2
+sample_pe_1.fq.gz	sample_pe_2.fq.gz	
+
