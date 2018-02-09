@@ -1,0 +1,9 @@
+file_type,location
+BWA_Path,/home/CHOP/TEST/bwa
+Reference_Genome,/home/CHOP/REF/human_g1k_v37.fasta
+Fastq_location,/home/CHOP/TEST/fastq
+Project_Location,/home/CHOP/TEST
+JAVA_Location,/home/CHOP/TEST/java
+Picard.jar,/home/CHOP/TEST/picard.jar
+GATK_Location,/home/CHOP/TEST/GATk
+RegionOfInterest_BED,home/CHOP/roi.bed
