@@ -1,5 +1,11 @@
 # CHOP
 
+INPUT REQUIRED : 
+
+1. Tab separated file for fastq paired files
+
+2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file
+
 FUNCTION: The pipeline creates bash scripts of all samples in a tab separated file. These bash scripts includes process of Alignment, Sorting, Quality Metrics, Addreplacegrps, Haplotype Caller.
 
 Haplotype caller was used to call variants because the test sample didnot have tumor_matched_normal. In between the process it generated baits file for hsmetrics and interval list required for quality metrics and calling variants. The scripts folder generated should have all the scripts depending upon number of samples.
