@@ -2,9 +2,9 @@
 
 INPUT REQUIRED : 
 
-1. Tab separated file for fastq paired files
+1. Tab separated file for fastq paired files (samples.txt)
 
-2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file
+2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file (location.txt)
 
 FUNCTION: The pipeline creates bash scripts of all samples in a tab separated file. These bash scripts includes process of Alignment, Sorting, Quality Metrics, Addreplacegrps, Haplotype Caller.
 
