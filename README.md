@@ -7,9 +7,10 @@ Haplotype caller was used as the test sample was a not tumor_matched_normal. In 
 Once all scripts are generated bash scipt.sh cmd should be executed depecding upon avaialbility of resources, This pipeline is automated and can have a control on number of samples to be processed at a time.
 * CAN USE SLURM AS WELL
 
-INPUT REQUIRED : 1. Tab separated file for fastq paired files
-                 
-                 2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file.
+INPUT REQUIRED 
+1. Tab separated file for fastq paired files
+             
+2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file.
 
 Requirements :
     Python/3.5.2
