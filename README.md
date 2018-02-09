@@ -19,14 +19,14 @@ INPUT REQUIRED
              
 2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file.
 
-Requirements :
+REQUIREMENTS :
 Python/3.5.2 ; 
 Java (version-1.8.x) ; 
 BWA (version-0.7.x) ; 
 GATK (version-3.6 or higher) ; 
 Picard Tools (version-2.x.x)
 
-Execution:
+EXECUTION:
     
 $ python/3.5.2 pipeline.py sample_file location_file
 
