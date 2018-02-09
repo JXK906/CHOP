@@ -8,6 +8,7 @@ Once all scripts are generated bash scipt.sh cmd should be executed depecding up
 * CAN USE SLURM AS WELL
 
 INPUT REQUIRED : 1. Tab separated file for fastq paired files
+                 
                  2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file.
 
 Requirements :
@@ -20,4 +21,5 @@ Requirements :
 Execution:
     
 $ python/3.5.2 pipeline.py sample_file location_file
+
 $ bash script.sh
