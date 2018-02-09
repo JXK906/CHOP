@@ -16,8 +16,8 @@ Requirements :
 Python/3.5.2 ; 
 Java (version-1.8.x) ; 
 BWA (version-0.7.x) ; 
-GATK.jar (version-3.6 or higher) ; 
-Picard.jar file (version-2.x.x)
+GATK (version-3.6 or higher) ; 
+Picard Tools (version-2.x.x)
 
 Execution:
     
