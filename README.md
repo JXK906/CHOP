@@ -13,11 +13,15 @@ INPUT REQUIRED
 2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file.
 
 Requirements :
-    Python/3.5.2
-    Java (version-1.8.x)
-    BWA (version-0.7.x)
-    GATK.jar (version-3.6 or higher)
-    Picard.jar file (version-2.x.x)
+Python/3.5.2
+
+Java (version-1.8.x)
+
+BWA (version-0.7.x)
+
+GATK.jar (version-3.6 or higher)
+
+Picard.jar file (version-2.x.x)
 
 Execution:
     
