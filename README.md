@@ -26,8 +26,6 @@ $ python/3.5.2 pipeline.py sample_file location_file
 
 $ cd /location_of_scripts/script.sh
 
-#For Bash:
-$ bash script.sh 
+$ bash script.sh # For Bash script
 
-#For SLURM:
-$ sbatch script.slurm
+$ sbatch script.slurm # For Slurm script
