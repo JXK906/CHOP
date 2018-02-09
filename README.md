@@ -1,6 +1,6 @@
 # CHOP
 
-FUNCTION: The pipeline creates bash scripts of all samples in a tab separated file. These bash scripts includes process of Alignment, Sorting, Quality Metrics, Addreplacegrps, HAplotype Caller.
+FUNCTION: The pipeline creates bash scripts of all samples in a tab separated file. These bash scripts includes process of Alignment, Sorting, Quality Metrics, Addreplacegrps, Haplotype Caller.
 
 Haplotype caller was used as the test sample was a not tumor_matched_normal. In between the process it generated baits file for hsmetrics and interval list required to call variants. The scripts folder generated should have all the scripts. 
 
