@@ -1,11 +1,5 @@
 # CHOP
 
-INPUT REQUIRED : 
-
-1. Tab separated file for fastq paired files (samples.txt)
-
-2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file (location.txt)
-
 FUNCTION: The pipeline creates bash scripts of all samples in a tab separated file. These bash scripts includes process of Alignment, Sorting, Quality Metrics, Addreplacegrps, Haplotype Caller.
 
 Haplotype caller was used to call variants because the test sample didnot have tumor_matched_normal. In between the process it generated baits file for hsmetrics and interval list required for quality metrics and calling variants. The scripts folder generated should have all the scripts depending upon number of samples.
@@ -15,9 +9,9 @@ Once all scripts are generated bash scipt.sh cmd should be executed depecding up
 * For SLURM change the header "#/bin/bash" of bash scripts to the slurm options and save it as ".slurm"
 
 INPUT REQUIRED 
-1. Tab separated file for fastq paired files
+1. Tab separated file for fastq paired files (samples.txt)
              
-2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file.
+2. Tab separated file describing locations to respected variables (tool kit and other files) decribed in a template file (location.txt)
 
 REQUIREMENTS :
 Python/3.5.2 ; 
