@@ -116,7 +116,6 @@ def pipeline(sample_file,location_file):
             bash.write("wait")
             
            
-#pipeline("/mnt/pan/Data16/jxk906/PROJECTS/CHOP/samples.txt","/mnt/pan/Data16/jxk906/PROJECTS/CHOP/location_file")
 
 if __name__=="__main__":
     sample_file=sys.argv[1]
